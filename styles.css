@@ -1,0 +1,149 @@
+#nav{
+    color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+}
+#leftPanel{
+  color: black;
+  padding-left: 130px;
+  width: 43%;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  color: white;
+ 
+}
+#leftPanel h1{
+  font-size: 43px;
+
+  
+}
+#rightPanel{
+ color: black;
+  display: flex;
+  flex-direction: row;
+
+}
+a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+  }
+  #body{
+    display: flex;
+    flex-direction: row;
+  }
+  #leftbody{
+    padding: 20px;
+    width:45%;
+  }
+  #leftbody h1{
+    padding-left: 50px;
+    font-size: 47px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #leftbody p{
+    padding-left: 50px;
+    font-size: 23px;
+    text-align: justify;
+    font-style: oblique;
+  }
+  #rightbody img{
+    border-radius: 100%;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    margin-left: 180px;
+    margin-top: 65px;
+  }
+.container,.html,.css,.js,.php{box-sizing: border-box;
+   border-radius: 20px;
+  height: 20px;}
+#skill h1{
+  font-size: 40px;
+  font-style: italic;
+  font-weight:300;
+}
+
+.container {
+  width: 90%;
+  background-color: #ddd;
+}
+.container1{width: 50%;}
+#container2{
+  width: 50%;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+#skill{
+  padding-left: 70px;
+  display: flex;
+  flex-direction: row;
+}
+#skill p{
+  font-size: larger;
+}
+
+.html {width: 90%; background-color: #808080;}
+.css {width: 80%; background-color:#808080;}
+.js {width: 65%; background-color: #808080;}
+.php {width: 60%; background-color:#808080;}
+#projects{
+  padding-left: 70px;
+  width: 100%;
+}
+#projects h1{
+  font-size: 40px;
+  font-style: italic;
+  font-weight:300;
+  color: black;
+}
+.griddd{
+  height: 250px;
+  display: grid;
+  margin-right: 70px;
+  grid-template-columns: 33% 33% 33%;
+}
+#rw1{
+  background-color:azure;
+  box-shadow: 10px 10px 25px rgba(0.5, 0.5, 0.5, 0.5);
+  margin: 0px 20px 10px 10px;
+  
+}
+#rw3{
+  background-color:azure;
+  box-shadow: 10px 10px 25px rgba(0.5, 0.5, 0.5, 0.5);
+  margin: 0px 20px 10px 10px;
+}
+#rw2{
+  background-color:azure;
+  margin: 0px 20px 10px 10px;
+  box-shadow: 10px 10px 25px rgba(0.5, 0.5, 0.5, 0.5);
+}
+#contact{
+  padding-left: 70px;
+  display: flex;
+  flex-direction: row;
+}
+#contact h1{
+  font-size: 40px;
+  font-style: italic;
+  font-weight:300;
+  color: black;
+}
+#flexcon{
+  display: flex;
+  flex-direction: row;
+}
